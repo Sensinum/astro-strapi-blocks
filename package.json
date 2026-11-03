@@ -48,12 +48,14 @@
     "test": "jest",
     "test:ci": "CI=true jest --ci --runInBand --verbose --coverage",
     "coverage": "CI=true jest --ci --runInBand --verbose --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^22.0.0",
     "astro": "^7.4.5",
+    "husky": "^9.1.7",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.15",
     "typescript": "^5.0.0"
