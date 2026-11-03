@@ -13,25 +13,26 @@
     "content-layer",
     "astro-integration"
   ],
-  "type": "module",
-  "main": "./src/components/StrapiBlocks.astro",
-  "types": "./src/index.d.ts",
-  "author": {
-    "name": "Sensinum / VirtusLab",
-    "email": "contact@sensinum.com",
-    "url": "https://sensinum.com"
-  },
-  "maintainers": [
-    {
-      "name": "@cyp3rius",
-      "email": "mziarko@virtuslab.com",
-      "url": "https://sensinum.com"
-    }
+  "license": "MIT",
+  "author": "Sensinum <hello@sensinum.com>",
+  "contributors": [
+    "Mateusz Ziarko <mziarko@virtuslab.com> (@cyp3rius)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks"
+    "url": "https://github.com/Sensinum/astro-strapi-blocks.git"
   },
+  "bugs": {
+    "url": "https://github.com/Sensinum/astro-strapi-blocks/issues"
+  },
+  "homepage": "https://github.com/Sensinum/astro-strapi-blocks#readme",
+  "engines": {
+    "node": ">=22.0.0 <=26.x.x",
+    "npm": ">=6.0.0"
+  },
+  "type": "module",
+  "main": "./src/components/StrapiBlocks.astro",
+  "types": "./src/index.d.ts",
   "exports": {
     ".": "./src/index.ts",
     "./astro": "./src/components/StrapiBlocks.astro",
@@ -41,11 +42,12 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "tsc --noEmit",
+    "dev": "tsc --watch --noEmit",
     "check": "tsc --noEmit",
     "test": "jest",
     "test:ci": "CI=true jest --ci --runInBand --verbose --coverage",
+    "coverage": "CI=true jest --ci --runInBand --verbose --coverage",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
@@ -58,8 +60,5 @@
   },
   "peerDependencies": {
     "astro": "^6.0.0 || ^7.0.0"
-  },
-  "engines": {
-    "node": ">=22.12.0"
   }
 }

@@ -5,16 +5,16 @@
   <h1>Astro Strapi Blocks</h1>
   <p>Astro Components package for Strapi 5 Blocks Field integration</p>
   <a href="https://www.npmjs.org/package/@sensinum/astro-strapi-blocks">
-    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/VirtusLab-Open-Source/astro-strapi-blocks?label=npm&logo=npm">
+    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Sensinum/astro-strapi-blocks?label=npm&logo=npm">
   </a>
   <a href="https://www.npmjs.org/package/@sensinum/astro-strapi-blocks">
     <img src="https://img.shields.io/npm/dm/%40sensinum%2Fastro-strapi-blocks.svg" alt="Monthly download on NPM" />
   </a>
-  <a href="https://circleci.com/gh/VirtusLab-Open-Source/astro-strapi-blocks">
-    <img src="https://circleci.com/gh/VirtusLab-Open-Source/astro-strapi-blocks.svg?style=shield" alt="CircleCI" />
+  <a href="https://github.com/Sensinum/astro-strapi-blocks/actions/workflows/ci.yml">
+    <img src="https://github.com/Sensinum/astro-strapi-blocks/actions/workflows/ci.yml/badge.svg" alt="CI" />
   </a>
-  <a href="https://codecov.io/gh/VirtusLab-Open-Source/astro-strapi-blocks">
-    <img src="https://codecov.io/gh/VirtusLab-Open-Source/astro-strapi-blocks/coverage.svg?branch=main" alt="codecov.io" />
+  <a href="https://codecov.io/gh/Sensinum/astro-strapi-blocks">
+    <img src="https://codecov.io/gh/Sensinum/astro-strapi-blocks/coverage.svg?branch=main" alt="codecov.io" />
   </a>
 </div>
 
@@ -512,6 +512,6 @@ Please make sure to:
 
 ## 📄 License
 
-Copyright © [Sensinum](https://sensinum.com) & [VirtusLab](https://virtuslab.com)
+Copyright © [Sensinum](https://sensinum.com)
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. 
