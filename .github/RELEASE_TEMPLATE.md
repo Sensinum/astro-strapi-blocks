@@ -34,9 +34,9 @@ npm install @sensinum/astro-strapi-blocks@1.0.0
 ```
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/VirtusLab-Open-Source/astro-strapi-blocks)
-- [Documentation](https://github.com/VirtusLab-Open-Source/astro-strapi-blocks#readme)
-- [Changelog](https://github.com/VirtusLab-Open-Source/astro-strapi-blocks/blob/main/CHANGELOG.md)
+- [GitHub Repository](https://github.com/Sensinum/astro-strapi-blocks)
+- [Documentation](https://github.com/Sensinum/astro-strapi-blocks#readme)
+- [Changelog](https://github.com/Sensinum/astro-strapi-blocks/blob/main/CHANGELOG.md)
 
 ## 🤝 Credits
-Made with ❤️ by [Sensinum](https://sensinum.com) & [VirtusLab](https://virtuslab.com) 
+Made with ❤️ by [Sensinum](https://sensinum.com) 
